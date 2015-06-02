@@ -1,0 +1,152 @@
+/* CSS */
+
+body {
+	overflow: hidden;
+}
+
+#container { 
+	margin: 0;
+	font-family: arial, sans-serif;
+  	font-size: 13px;
+  	text-decoration: none;
+  	color: #404040;
+}
+
+a { 
+	color: #404040;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Navbar */
+
+#nav {
+	text-align: right;
+}
+
+li {
+  	display: inline-block;
+  	vertical-align: middle;
+  	margin-right: 20px;
+  	margin-left: 0px;
+}
+
+ul li:nth-child(4),
+ul li:nth-child(5),
+ul li:nth-child(6) {
+  min-width: 30px;
+  min-height: 30px;   
+}
+
+.apps {
+	background-image: url("sprite.png");
+  	background-position: -69px -854px;
+  	position: absolute;
+  	width: 30px;
+  	height: 30px;
+}
+
+.bell {
+  	background-image: url("sprite.png");
+  	background-position: -69px -69px;
+  	position: absolute;
+  	width: 30px;
+  	height: 30px;
+}
+
+.profile {
+  	background-image: url("profile.png");
+  	border-radius: 50%;
+  	position: absolute;
+  	background-size: 32px 32px;
+  	-webkit-transform: scale(1.2);
+	display: block;
+	height: 33px;
+	width: 33px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/* Center */
+
+#center {
+
+	text-align: -webkit-center;
+	display: block;
+}
+
+#imagesec {
+	width: 1440px;
+	height:231px;
+	margin-top: 80px;
+}
+
+#center img {
+	width: 269px;
+	height: 95px;
+}
+
+#search {
+	height: 150px;
+}
+
+.searchbar input {
+	height: 25px;
+	width: 550px;
+}
+
+#searchbutton, #lucky {
+	height: 29px;
+	width: 95px;
+	margin-top: 14px;
+	margin-right: 6px;
+	margin-left: 6px;
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	border-radius: 2px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+#lucky {
+	width: 117px;
+	height: 29px;
+}
+
+#searchbutton:hover, #lucky:hover {
+	background-color: #F6F8FA;
+	box-shadow: 5px;
+	-webkit-box-shadow: 0 1px 1px #c6c6c6;
+}
+
+
+#footer {
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 15px;
+  min-width: 100%;
+  bottom: 0;
+  position: absolute;
+  padding-top: 0px;
+
+}
+
+#footer li {
+	text-decoration: none;
+	margin-right: 20px;
+	color: #666;
+}
+
+#footer-left {
+	float: left;
+	margin: 0;
+}
+
+#footer-right {
+	float: right;
+	margin-right: 20px;
+}
+
